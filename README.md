@@ -1,2 +1,1 @@
 # Sign-Language-Detection
-fnm
