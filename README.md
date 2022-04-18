@@ -5,7 +5,7 @@
 
 ***Problem Statement***
 
-&nbsp;&nbsp;&nbsp;Deploy a deep learning-based web app capable of predicting and displaying the sign language alphabet from the webcam video feed of the Client. 
+&nbsp;&nbsp;&nbsp; A deep learning-based model capable of predicting the sign language alphabet from the user. 
 
 ***Approach***
 
@@ -16,31 +16,6 @@ A custom CNN architecture based model as shown below has been used for this task
   <img width="900" height="500" src="https://user-images.githubusercontent.com/43301609/86128405-2cefdf80-ba96-11ea-8120-d02a76c794c3.PNG">
 </p>
 
-&nbsp;&nbsp;&nbsp;Once trained, the Pytorch model is integrated with the Flask based web App. Predictions and their time stamp are stored every 15 seconds on cloud-based Mongo DB server. The front-end of the web app has been developed using bootstrap theme “Simply Me” borrowed from <a href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">W3 schools<a>. Images used in this project were downloaded from Google Search Engine.
-
-***Note: Due to the limitation in diversity of the training dataset, the model works best with a clean, plain background.***
-
-***Setup and Installation***
-
-Change torch and torchvision in requirements.txt based on Windows, Linux or Mac OS being used and installation method, <a href="https://pytorch.org/get-started/locally/">Check here.<a><br> (Note: If you are using Mac or Linux with GPU, there is no need to change the requirements.txt file).
-  
-Step 0: ```Git clone this project```<br>
-Step 1: ```cd <local-repository-folder>``` <br>
-Step 2: ```pip3 install -r requirements.txt```<br>
-Step 3: ```python webstreaming.py --ip 0.0.0.0 --port 8000 (For MacOS/ Linux )```<br>
-        ```python webstreaming.py --ip 127.0.0.1 --port 8000 (For Windows )```<br>
-
-Tools: Pytorch, OpenCV, Flask, Mongo DB (PyMongo), Bootstrap 
-
-***Demo Video***
-
-&nbsp;&nbsp;&nbsp;Watch a <a href="https://youtu.be/cUS1LvmjlCA">video<a> demonstrating the sign language classfier. 
-
 ***Future Enhancements***<br><br>
 &nbsp;&nbsp;&nbsp;Heroku based online website in progress…
 
-***References***
-
-Mohamed Shawky - <a href="https://github.com/mohshawky5193/dog-breed-classifier">dog-breed-classifier<a><br>
-Miguel Grinberg - <a href="https://blog.miguelgrinberg.com/post/video-streaming-with-flask">Video Streaming With Flask<a><br>
-<a href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">Bootstrap Theme "Simply Me"<a><br>
