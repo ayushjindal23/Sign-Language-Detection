@@ -17,5 +17,5 @@ A custom CNN architecture based model as shown below has been used for this task
 </p>
 
 ***Future Enhancements***<br><br>
-&nbsp;&nbsp;&nbsp;Heroku based online website in progress…
+&nbsp;&nbsp;&nbsp;Heroku based online website in progress
 
