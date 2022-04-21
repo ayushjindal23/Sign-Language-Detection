@@ -1,4 +1,9 @@
-# Web-based-Sign-Language-Classifier
+## Sign-Language-Classifier
+# Submitted By:
+- Mimansa Sharma RA1911003010296
+- Shanti Ramakrishnan RA1911003010300
+- Utkarsh Agrawal RA1911003010307
+- Ayush Jindal RA191003010308
 ***Introduction***
 
 &nbsp;&nbsp;&nbsp;Sign Languages facilitate communication using hand signs. The earliest usage of sign languages has been recorded to be 5000 BC. In the research published by Centers for Disease Control and Prevention (CDC) in 2010, around 3 out of every 1000 children in the United States of America are born with a detectable amount of hearing loss in one or both ears. This project is a humble effort to help practice Sign Language Alphabets using Deep Learning model based architecture.
