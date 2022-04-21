@@ -1,4 +1,4 @@
-#Sign-Language-Classifier
+# Sign-Language-Classifier
 ## Submitted By:
 - Mimansa Sharma RA1911003010296
 - Shanti Ramakrishnan RA1911003010300
